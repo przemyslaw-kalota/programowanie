@@ -1,0 +1,47 @@
+#buttonL{
+    width:80px;
+    height:40px;
+    text-align:center;
+  }
+  
+  #buttonM{
+    width:80px;
+    height:40px;
+    
+  }
+  
+  #buttonR{
+    width:80px;
+    height:40px;
+    
+  }
+  
+  #CL{
+    background:red;
+    width:15px;
+    height:15px;
+   
+  }
+  
+  #CR{
+    background:blue;
+    width:15px;
+    height:15px;
+    
+  }
+  
+  #CM{
+    background:green;
+    width:15px;
+    height:15px;
+    
+  }
+  
+  #monitor{
+    width:200px;
+    height:200px;
+    background:gray;
+    border-style:solid;
+    text-align:center;
+  
+  }

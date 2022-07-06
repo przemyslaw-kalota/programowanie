@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>What's your reflex</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id = "monitor">
+        <div id = "monitorInside">COLOR</div> <!-- Color of text inside -->
+      </div>
+      <button id = "buttonL" onClick = "textColor('red');"><div id = "CL"></div></button> <!-- Color Left -->
+      <button id = "buttonM" onClick = "textColor('green');"><div id = "CM"></div></button> <!-- Color Middle -->
+      <button id = "buttonR" onClick = "textColor('blue');"><div id = "CR"></div></button> <!-- Color Right -->
+      <!-- <p>Your time:</p>
+      <p>Best time:</p> -->
+      <!-- <p>Difficulty level:</p>
+      <input type="range" name="Difficulty level" min="1" max="3"> -->
+      <!--
+      1 - tylko nazwa
+      2 - nazwa + kolor
+      3 - nazwa + kolor + ramka + tło
+      -->
+      
+      <button type = "button" onClick = "randomColor();">Start</button>
+      <p>Wylosowany kolor: <p id = 'checkColor'></p></p>
+      <script src = "script.js">
+        
+      </script>
+</body>
+</html>
